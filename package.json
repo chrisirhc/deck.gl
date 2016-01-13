@@ -22,6 +22,9 @@
       "glslify"
     ]
   },
+  "babel": {
+    "presets": ["es2015", "stage-2", "react"]
+  },
   "dependencies": {
     "earcut": "^2.0.6",
     "geojson-normalize": "0.0.1",
@@ -52,6 +55,8 @@
     "r-dom": "^2.1.0",
     "react-map-gl": "^0.6.0",
     "react-redux": "^4.0.0",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0",
     "redux": "^3.0.4",
     "tape": "^4.0.0",
     "uber-standard": "^5.1.0",
